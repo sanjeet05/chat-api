@@ -1,0 +1,8 @@
+version: "3"
+services:
+    reflect-api:
+        build: ./
+        ports:
+            - "3100:3100"
+        environment:
+            - NODE_ENV=production
